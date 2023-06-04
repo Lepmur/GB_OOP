@@ -4,13 +4,60 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c000fe75-e295-4c84-a6a2-8474acb1a294" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ProjectJavaOOP.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+    <list default="true" id="c000fe75-e295-4c84-a6a2-8474acb1a294" name="Changes" comment="added Lec_1_030623">
+      <change afterPath="$PROJECT_DIR$/Lection_2_040623/Ex001/BaseHero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lection_2_040623/Ex001/Druid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lection_2_040623/Ex001/Magician.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lection_2_040623/Ex001/Priest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lection_2_040623/Ex001/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lection_2_040623/Ex002/BaseHero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lection_2_040623/Ex002/Druid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lection_2_040623/Ex002/Magician.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lection_2_040623/Ex002/Priest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lection_2_040623/Ex002/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lection_2_040623/Ex003/BaseHero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lection_2_040623/Ex003/Druid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lection_2_040623/Ex003/Magician.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lection_2_040623/Ex003/Priest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lection_2_040623/Ex003/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lection_2_040623/Ex003/alliance/Dwarf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lection_2_040623/Ex003/alliance/Gnome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lection_2_040623/Ex003/alliance/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lection_2_040623/Ex003/alliance/Worgen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lection_2_040623/Ex004/BaseHero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lection_2_040623/Ex004/Druid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lection_2_040623/Ex004/Dwarf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lection_2_040623/Ex004/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lection_2_040623/Ex004/class.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lection_2_040623/Ex005/class.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lection_2_040623/Ex005/v1/Healers/Druid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lection_2_040623/Ex005/v1/Healers/Healer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lection_2_040623/Ex005/v1/Healers/Priest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lection_2_040623/Ex005/v1/Healers/Shaman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lection_2_040623/Ex005/v1/Hero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lection_2_040623/Ex005/v1/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lection_2_040623/Ex005/v1/Warriors/Knight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lection_2_040623/Ex005/v1/Warriors/Paladin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lection_2_040623/Ex005/v1/Warriors/Warrior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lection_2_040623/Ex005/v2/God.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lection_2_040623/Ex005/v2/Healers/Druid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lection_2_040623/Ex005/v2/Healers/Healer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lection_2_040623/Ex005/v2/Healers/Priest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lection_2_040623/Ex005/v2/Healers/Shaman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lection_2_040623/Ex005/v2/Hero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lection_2_040623/Ex005/v2/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lection_2_040623/Ex005/v2/Warriors/Knight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lection_2_040623/Ex005/v2/Warriors/Paladin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lection_2_040623/Ex005/v2/Warriors/Warrior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lection_2_040623/Ex006/Applications/Notepad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lection_2_040623/Ex006/Document/TextDocument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lection_2_040623/Ex006/Format/Doc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lection_2_040623/Ex006/Format/Md.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lection_2_040623/Ex006/Format/TextFormat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lection_2_040623/Ex006/Format/Txt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lection_2_040623/Ex006/Interface/Saveable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lection_2_040623/Ex006/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,13 +67,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2QeWRKgyHng0IkkhA9XM6aocEnD" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/Learning/ProjectJavaOOP&quot;,
@@ -57,6 +111,14 @@
       <option name="presentableId" value="Default" />
       <updated>1685714518086</updated>
     </task>
+    <task id="LOCAL-00001" summary="added Lec_1_030623">
+      <created>1685824468422</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685824468422</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -69,5 +131,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="added Lec_1_030623" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Lec_1_030623" />
   </component>
 </project>
