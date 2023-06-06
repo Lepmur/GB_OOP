@@ -4,9 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1824d75a-d01a-455b-9e0b-79c2c5fa454a" name="Changes" comment="added Sem_3 Lec_3 DZ_3">
+    <list default="true" id="1824d75a-d01a-455b-9e0b-79c2c5fa454a" name="Changes" comment="DZ_3 correct ;-)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/Sample02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/Sample02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/geekbrains/AgeComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/geekbrains/AgeComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/geekbrains/Employee$Gender.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/geekbrains/Employee$Gender.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/geekbrains/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/geekbrains/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/geekbrains/Freelancer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/geekbrains/Freelancer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/geekbrains/GenderComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/geekbrains/GenderComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/geekbrains/NameComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/geekbrains/NameComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/geekbrains/SalaryComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/geekbrains/SalaryComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/geekbrains/Sample02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/geekbrains/Sample02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/geekbrains/Worker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/geekbrains/Worker.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,11 +72,26 @@
       <option name="project" value="LOCAL" />
       <updated>1686075106659</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="DZ_3 correct ;-)">
+      <created>1686078194464</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1686078194464</updated>
+    </task>
+    <task id="LOCAL-00003" summary="DZ_3 correct ;-)">
+      <created>1686078205479</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1686078205479</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added Sem_3 Lec_3 DZ_3" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Sem_3 Lec_3 DZ_3" />
+    <MESSAGE value="DZ_3 correct ;-)" />
+    <option name="LAST_COMMIT_MESSAGE" value="DZ_3 correct ;-)" />
   </component>
 </project>

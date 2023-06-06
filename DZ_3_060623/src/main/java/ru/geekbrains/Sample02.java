@@ -3,6 +3,9 @@ package ru.geekbrains;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.Random;
+import java.util.StringTokenizer;
+
+import static java.awt.SystemColor.text;
 
 public class Sample02 {
 
@@ -34,39 +37,37 @@ public class Sample02 {
             employees[i] = (Employee)generateEmployee();
 
         Arrays.sort(employees);
-        System.out.print("\n*** Сортировка по умолчанию (по фамилии) ***\n\n");
-        System.out.printf("%-15s %-15s %-10s %-10s %-10s\n","Фамилия", "Имя", "Пол", "Возраст", "Зарплата");
-        System.out.println("-----------------------------------------------------------");
+        TableFormat("Сортировка по умолчанию (по фамилии)");
         for (Employee employee : employees)
             System.out.println(employee);
 
         Arrays.sort(employees, new NameComparator());
-        System.out.print("\n*** Сортировка по имени ***\n\n");
-        System.out.printf("%-15s %-15s %-10s %-10s %-10s\n","Фамилия", "Имя", "Пол", "Возраст", "Зарплата");
-        System.out.println("-----------------------------------------------------------");
+        TableFormat("Сортировка по имени");
         for (Employee employee : employees)
             System.out.println(employee);
 
         Arrays.sort(employees, new GenderComparator());
-        System.out.print("\n*** Сортировка по полу ***\n\n");
-        System.out.printf("%-15s %-15s %-10s %-10s %-10s\n","Фамилия", "Имя", "Пол", "Возраст", "Зарплата");
-        System.out.println("-----------------------------------------------------------");
+        TableFormat("Сортировка по полу");
         for (Employee employee : employees)
             System.out.println(employee);
 
         Arrays.sort(employees, new AgeComparator());
-        System.out.print("\n*** Сортировка по возрасту ***\n\n");
-        System.out.printf("%-15s %-15s %-10s %-10s %-10s\n","Фамилия", "Имя", "Пол", "Возраст", "Зарплата");
-        System.out.println("-----------------------------------------------------------");
+        TableFormat("Сортировка по возрасту");
         for (Employee employee : employees)
             System.out.println(employee);
 
         Arrays.sort(employees, new SalaryComparator());
-        System.out.print("\n*** Сортировка по зарплате ***\n\n");
-        System.out.printf("%-15s %-15s %-10s %-10s %-10s\n","Фамилия", "Имя", "Пол", "Возраст", "Зарплата");
-        System.out.println("-----------------------------------------------------------");
+        TableFormat("Сортировка по зарплате");
         for (Employee employee : employees)
             System.out.println(employee);
+    }
+
+    private static void TableFormat(String s) {
+        String tableFormat = String.format(
+                "\n*** %s ***\n\n%-15s %-15s %-10s %-10s %-10s\n" +
+                "--------------------------------------------------------------",
+                s, "Фамилия", "Имя", "Пол", "Возраст", "Зарплата");
+        System.out.println(tableFormat);
     }
 }
 
