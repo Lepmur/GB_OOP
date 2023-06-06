@@ -33,26 +33,38 @@ public class Sample02 {
         for (int i = 0; i < employees.length; i++)
             employees[i] = (Employee)generateEmployee();
 
+        Arrays.sort(employees);
+        System.out.print("\n*** Сортировка по умолчанию (по фамилии) ***\n\n");
+        System.out.printf("%-15s %-15s %-10s %-10s %-10s\n","Фамилия", "Имя", "Пол", "Возраст", "Зарплата");
+        System.out.println("-----------------------------------------------------------");
         for (Employee employee : employees)
             System.out.println(employee);
 
         Arrays.sort(employees, new NameComparator());
         System.out.print("\n*** Сортировка по имени ***\n\n");
+        System.out.printf("%-15s %-15s %-10s %-10s %-10s\n","Фамилия", "Имя", "Пол", "Возраст", "Зарплата");
+        System.out.println("-----------------------------------------------------------");
         for (Employee employee : employees)
             System.out.println(employee);
 
         Arrays.sort(employees, new GenderComparator());
-        System.out.print("\n*** Сортировка по гендеру ***\n\n");
+        System.out.print("\n*** Сортировка по полу ***\n\n");
+        System.out.printf("%-15s %-15s %-10s %-10s %-10s\n","Фамилия", "Имя", "Пол", "Возраст", "Зарплата");
+        System.out.println("-----------------------------------------------------------");
         for (Employee employee : employees)
             System.out.println(employee);
 
         Arrays.sort(employees, new AgeComparator());
         System.out.print("\n*** Сортировка по возрасту ***\n\n");
+        System.out.printf("%-15s %-15s %-10s %-10s %-10s\n","Фамилия", "Имя", "Пол", "Возраст", "Зарплата");
+        System.out.println("-----------------------------------------------------------");
         for (Employee employee : employees)
             System.out.println(employee);
 
         Arrays.sort(employees, new SalaryComparator());
         System.out.print("\n*** Сортировка по зарплате ***\n\n");
+        System.out.printf("%-15s %-15s %-10s %-10s %-10s\n","Фамилия", "Имя", "Пол", "Возраст", "Зарплата");
+        System.out.println("-----------------------------------------------------------");
         for (Employee employee : employees)
             System.out.println(employee);
     }
@@ -72,6 +84,14 @@ abstract class Employee implements Comparable<Employee>{
         this.gender = gender;
         this.age = age;
         this.salary = salary;
+    }
+
+    public int compareTo(Employee o) {
+        int result = this.surName.compareTo(o.surName);
+        if (result == 0) {
+            result = Double.compare(this.calculateSalary(), o.calculateSalary());
+        }
+        return result;
     }
 
     public enum Gender {
@@ -132,12 +152,7 @@ class Worker extends Employee{
 
     @Override
     public String toString() {
-        return String.format("%s %s; %s; %s лет; Worker; З/п: %.2f (руб.)", name, surName, gender, age, calculateSalary());
-    }
-
-    @Override
-    public int compareTo(Employee o) {
-        return 0;
+        return String.format("%-15s %-15s %-10s %-10s %.2f",surName, name, gender, age, calculateSalary());
     }
 }
 
@@ -154,11 +169,6 @@ class Freelancer extends Employee{
 
     @Override
     public String toString() {
-        return String.format("%s %s; %s; %s лет; Freelancer; З/п: %.2f (руб.)", name, surName, gender, age, calculateSalary());
-    }
-
-    @Override
-    public int compareTo(Employee o) {
-        return 0;
+        return String.format("%-15s %-15s %-10s %-10s %.2f",surName, name, gender, age, calculateSalary());
     }
 }
