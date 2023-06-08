@@ -6,7 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="DZ_04_080623" />
+        <module name="DZ_4_080623" />
       </profile>
     </annotationProcessing>
   </component>
