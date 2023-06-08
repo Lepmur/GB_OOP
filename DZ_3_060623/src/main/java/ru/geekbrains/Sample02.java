@@ -3,9 +3,6 @@ package ru.geekbrains;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.Random;
-import java.util.StringTokenizer;
-
-import static java.awt.SystemColor.text;
 
 public class Sample02 {
 
