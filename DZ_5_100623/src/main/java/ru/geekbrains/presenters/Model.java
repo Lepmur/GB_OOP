@@ -20,6 +20,8 @@ public interface Model {
      * @param name имя клиента
      * @return номер брони
      */
+
     int reservationTable(Date reservationDate, int tableNo, String name);
 
+    int changeReservationTable(int oldReservation, Date reservationDate, int tableNo, String name);
 }

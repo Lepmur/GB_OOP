@@ -58,14 +58,14 @@ public class BookingView implements View {
     }
 
     /**
-     * Действие клиента (пользователь нажал на кнопку бронирования), бронирование столика
+     * Действие клиента (пользователь нажал на кнопку бронирования), изменение бронирования
      * @param oldReservation идентификатор бронирования (старый)
      * @param reservationDate дата бронирования
      * @param tableNo номер столика
      * @param name Имя
      */
     public void changeReservationTable(int oldReservation, Date reservationDate, int tableNo, String name){
-        //TODO: Обратиться к наблюдателю, указать на процедуру изменения бронирования столика
+        observer.onChangeReservationTable(oldReservation, reservationDate, tableNo, name);
     }
 
 

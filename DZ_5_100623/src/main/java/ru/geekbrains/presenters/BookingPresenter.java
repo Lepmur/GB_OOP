@@ -1,7 +1,7 @@
 package ru.geekbrains.presenters;
 
 import ru.geekbrains.models.Table;
-import ru.geekbrains.models.TableModel;
+
 
 import java.util.Collection;
 import java.util.Date;
@@ -51,6 +51,20 @@ public class BookingPresenter implements ViewObserver {
     @Override
     public void onReservationTable(Date orderDate, int tableNo, String name) {
         int reservationNo = model.reservationTable(orderDate, tableNo, name);
+        updateReservationStatusView(reservationNo);
+    }
+
+    /**
+     * Получили уведомление о попытке смены бронирования столика
+     * @param oldReservation номер старого резерва
+     * @param reservationDate дата бронирования
+     * @param tableNo номер столика
+     * @param name имя клиента
+     */
+    @Override
+    public void onChangeReservationTable(int oldReservation, Date reservationDate, int tableNo, String name) {
+
+        int reservationNo = model.reservationTable(reservationDate, tableNo, name);
         updateReservationStatusView(reservationNo);
     }
 }

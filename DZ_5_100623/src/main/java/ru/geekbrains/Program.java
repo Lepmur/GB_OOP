@@ -1,6 +1,6 @@
 package ru.geekbrains;
 
-import ru.geekbrains.models.Table;
+
 import ru.geekbrains.models.TableModel;
 import ru.geekbrains.presenters.BookingPresenter;
 import ru.geekbrains.views.BookingView;
@@ -10,9 +10,6 @@ import java.util.Date;
 public class Program {
 
     /**
-     * TODO: ДОМАШНЯЯ РАБОТА
-     * Метод changeReservationTable должен ЗАРАБОТАТЬ!
-     *
      * @param args аргументы командной строки
      */
     public static void main(String[] args) {
