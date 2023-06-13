@@ -2,8 +2,8 @@ package ru.geekbrains.dip;
 
 public class ReportItem {
 
-    private String description;
-    private float amount;
+    private final String description;
+    private final float amount;
 
     public ReportItem(String description, float amount) {
         this.description = description;

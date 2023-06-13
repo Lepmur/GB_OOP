@@ -4,35 +4,69 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8702171a-9eb7-435a-a84f-981af70746b7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DZ_5_100623/src/main/java/ru/geekbrains/presenters/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DZ_5_100623/src/main/java/ru/geekbrains/presenters/Model.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Test/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Test/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Test/.idea/discord.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Test/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Test/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Test/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Test/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Test/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Test/src/main/java/org/example/Circle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Test/src/main/java/org/example/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Test/src/main/java/org/example/Rectangle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Test/src/main/java/org/example/Triangle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Test/target/classes/org/example/Main.class" beforeDir="false" />
+    <list default="true" id="8702171a-9eb7-435a-a84f-981af70746b7" name="Changes" comment="added Lec_6 Sem_6 DZ_6">
+      <change afterPath="$PROJECT_DIR$/order_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/dip/ReportOutput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/spr2/ConsoleInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/spr2/DataInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/spr2/DataSaver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/spr2/FileSaver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/dip/PrintReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/dip/PrintReport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/dip/PrintReport2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/dip/PrintReport3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/dip/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/dip/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/dip/Report.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/dip/Report.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/dip/ReportItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/dip/ReportItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/isp/CreditCardPayable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/isp/InternetPaymentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/isp/PaymentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/isp/PhonePayable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/isp/Program.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/isp/TerminalPaymentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/isp/WebMoneyPayable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/lsp/Bird.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/lsp/Duck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/lsp/Penguin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/lsp/Program.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/ocp/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/ocp/Program.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/ocp/RightTriangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/ocp/Shape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/ocp/Square.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/ocp2/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/ocp2/Shape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/ocp2/ShapeType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/ocp2/ShapeV2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/ocp2/SimpleDrawer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/ocp2/SimpleDrawerV2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/spr/Point.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/spr/Program.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/spr/Square.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/spr/SquareDrawer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/spr2/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/spr2/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/spr2/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/spr2/Program.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -42,14 +76,21 @@
     </option>
   </component>
   <component name="ProjectId" id="2R9oDD6Nr0P2rdTrKq3IK7B0pbE" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -61,6 +102,19 @@
       <option name="presentableId" value="Default" />
       <updated>1686671536975</updated>
     </task>
+    <task id="LOCAL-00001" summary="added Lec_6 Sem_6 DZ_6">
+      <created>1686673897326</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686673897326</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="added Lec_6 Sem_6 DZ_6" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Lec_6 Sem_6 DZ_6" />
   </component>
 </project>
