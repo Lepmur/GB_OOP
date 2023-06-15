@@ -5,6 +5,6 @@ package final_project_oop;
  */
 public interface Observer {
 
-    void receiveOffer(String companyName, double salary);
+    void receiveOffer(Vacancy vacancy);
 
 }

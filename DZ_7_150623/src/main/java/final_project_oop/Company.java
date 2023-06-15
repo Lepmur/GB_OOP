@@ -4,11 +4,10 @@ import java.util.Random;
 
 public class Company {
 
-    private Random random;
-    private String nameCompany;
-    private double maxSalary;
-
-    private Publisher jobAgency;
+    private final Random random;
+    private final String nameCompany;
+    private final double maxSalary;
+    private final Publisher jobAgency;
 
     public Company(String nameCompany, double maxSalary, Publisher jobAgency) {
         this.nameCompany = nameCompany;
@@ -17,14 +16,14 @@ public class Company {
         random = new Random();
     }
 
-    /**
-     * TODO: Доработать метод, компания должна генерировать объект "Вакансия" и передавать
-     *  объект в агенство.
-     * Поиск сотрудника
-     */
-    public void needEmployee(){
+    public void newVacancy(){
+        JobType[] jobTypes = JobType.values();
+        JobType randomJobType = jobTypes[random.nextInt(jobTypes.length)];
+
         double salary = random.nextDouble(3000, maxSalary);
-        jobAgency.sendOffer(nameCompany, salary);
+        Vacancy newVacancy = new Vacancy(salary, nameCompany, randomJobType);
+        jobAgency.sendOffer(newVacancy);
+
     }
 
 }
